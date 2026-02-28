@@ -18,6 +18,7 @@ ai-note/
   - [多代理架构完整方案](openclaw/architecture/multi-agent.md)
 - **技术解决方案**  
   - [代理问题解决方案](openclaw/solutions/proxy-solutions.md)
+  - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
 
 ### 其他领域
 - *(待添加)*
@@ -39,4 +40,4 @@ ai-note/
 4. 确保文档 AI 友好（结构化、可解析）
 
 ---
-**索引最后更新**: 2026-02-27
+**索引最后更新**: 2026-02-28
