@@ -19,6 +19,10 @@ ai-note/
 - **技术解决方案**  
   - [代理问题解决方案](openclaw/solutions/proxy-solutions.md)
   - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
+- **最佳实践**
+  - [异步任务监控方案](openclaw/best-practices/sessions-spawn-async-monitoring.md)
+  - [多代理 Telegram 交互](openclaw/best-practices/multi-agent-telegram.md)
+  - [OpenClaw 配置最佳实践](openclaw/best-practices/openclaw-configuration-best-practices.md)
 
 ### 其他领域
 - *(待添加)*
@@ -40,4 +44,4 @@ ai-note/
 4. 确保文档 AI 友好（结构化、可解析）
 
 ---
-**索引最后更新**: 2026-02-28
+**索引最后更新**: 2026-03-13
