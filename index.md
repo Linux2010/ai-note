@@ -19,11 +19,12 @@ ai-note/
 - **技术解决方案**  
   - [代理问题解决方案](openclaw/solutions/proxy-solutions.md)
   - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
+  - [Docker 容器内 Telegram Bot 连接问题排查](openclaw/solutions/docker-telegram-proxy-connection-issue.md) ⭐ NEW
 - **最佳实践**
   - [异步任务监控方案](openclaw/best-practices/sessions-spawn-async-monitoring.md)
   - [多代理 Telegram 交互](openclaw/best-practices/multi-agent-telegram.md)
   - [OpenClaw 配置最佳实践](openclaw/best-practices/openclaw-configuration-best-practices.md)
-  - [Discord Bot 配置最佳实践](openclaw/best-practices/discord-bot-configuration-best-practices.md) ⭐ NEW
+  - [Discord Bot 配置最佳实践](openclaw/best-practices/discord-bot-configuration-best-practices.md)
 
 ### 其他领域
 - *(待添加)*
