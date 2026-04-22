@@ -16,6 +16,7 @@ ai-note/
 ### OpenClaw
 - **架构设计**
   - [多代理架构完整方案](openclaw/architecture/multi-agent.md)
+  - [核心架构与消息处理循环](openclaw/architecture/core-architecture.md) ⭐ NEW
 - **技术解决方案**  
   - [代理问题解决方案](openclaw/solutions/proxy-solutions.md)
   - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
