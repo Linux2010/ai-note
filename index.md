@@ -32,6 +32,7 @@ ai-note/
   - [百炼 Qwen 模型配置指南](openclaw/best-practices/bailian-model-configuration.md) ⭐ NEW
   - [百炼平台大模型配置最佳实践](openclaw/best-practices/bailian-models-best-practices.md) ⭐ NEW
   - [NVM + OpenClaw 版本管理最佳实践](openclaw/best-practices/nvm-nodejs-openclaw-management.md) ⭐ NEW
+  - [Playwright 浏览器自动化最佳实践](openclaw/best-practices/playwright-best-practices.md) ⭐ NEW
 
 ### 其他领域
 - *(待添加)*
