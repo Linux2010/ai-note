@@ -34,6 +34,9 @@ ai-note/
   - [NVM + OpenClaw 版本管理最佳实践](openclaw/best-practices/nvm-nodejs-openclaw-management.md) ⭐ NEW
   - [Playwright 浏览器自动化最佳实践](openclaw/best-practices/playwright-best-practices.md) ⭐ NEW
 
+### Hermes Agent
+- [核心特点评估](hermes-agent/overview.md) ⭐ NEW
+
 ### 其他领域
 - *(待添加)*
 
