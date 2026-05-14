@@ -90,6 +90,9 @@ ai-note/
 - [总结与对比](docs/langgraph-technical-report/08-summary-and-comparison.md)
 - [README](docs/langgraph-technical-report/README.md)
 
+#### Agent-CLI 语言选型
+- [Agent-CLI 最适合的开发语言：全面对比与选型指南](docs/agent-cli-language-comparison.md)
+
 #### 其他
 - [Fork 维护最佳实践](docs/fork-maintenance-best-practices.md)
 
@@ -118,4 +121,4 @@ ai-note/
 4. 确保文档 AI 友好（结构化、可解析）
 
 ---
-**索引最后更新**: 2026-04-06
+**索引最后更新**: 2025-07-23
