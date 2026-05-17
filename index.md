@@ -53,6 +53,7 @@ ai-note/
 - [NVM + Node.js + OpenClaw 版本管理](openclaw/best-practices/nvm-nodejs-openclaw-management.md)
 - [Playwright 浏览器自动化最佳实践](openclaw/best-practices/playwright-best-practices.md)
 - [GitHub Workflow 最佳实践](openclaw/best-practices/github-workflow-best-practices.md)
+- [群组对话配置最佳实践](openclaw/best-practices/group-chat-configuration-best-practices.md)
 
 #### OpenClaw 根目录文档
 - [AI 代理精英记忆架构最佳实践](openclaw/AI 代理精英记忆架构最佳实践.md)
