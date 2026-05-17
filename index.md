@@ -38,6 +38,7 @@ ai-note/
 - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
 - [Control UI HTTP 远程访问配置](openclaw/solutions/control-ui-http-remote-access.md)
 - [Docker Telegram 代理连接问题](openclaw/solutions/docker-telegram-proxy-connection-issue.md)
+- [Telegram 长轮询断连 — Event-Loop 饥饿修复](openclaw/solutions/telegram-eventloop-starvation-fix.md)
 
 #### 最佳实践
 - [异步任务监控方案](openclaw/best-practices/sessions-spawn-async-monitoring.md)
