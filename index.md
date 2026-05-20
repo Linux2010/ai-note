@@ -34,6 +34,7 @@ ai-note/
 - [记忆搜索实现方案](openclaw/architecture/memory-search-implementation.md)
 
 #### 技术解决方案
+- [macOS TCP 连接风暴排查](openclaw/solutions/macos-tcp-connection-storm.md)
 - [代理问题解决方案](openclaw/solutions/proxy-solutions.md)
 - [Telegram 多频道路由配置](openclaw/solutions/telegram-multi-agent-routing.md)
 - [Control UI HTTP 远程访问配置](openclaw/solutions/control-ui-http-remote-access.md)
@@ -122,4 +123,4 @@ ai-note/
 4. 确保文档 AI 友好（结构化、可解析）
 
 ---
-**索引最后更新**: 2025-07-23
+**索引最后更新**: 2026-05-20
