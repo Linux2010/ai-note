@@ -40,6 +40,7 @@ ai-note/
 - [Control UI HTTP 远程访问配置](openclaw/solutions/control-ui-http-remote-access.md)
 - [Docker Telegram 代理连接问题](openclaw/solutions/docker-telegram-proxy-connection-issue.md)
 - [cc-connect Telegram Bot 无响应诊断与修复](openclaw/solutions/cc-connect-telegram-unresponsive.md)
+- [Memory Search 索引问题修复](openclaw/openclaw-memory-index-repair.md)
 
 #### 最佳实践
 - [异步任务监控方案](openclaw/best-practices/sessions-spawn-async-monitoring.md)
@@ -124,4 +125,4 @@ ai-note/
 4. 确保文档 AI 友好（结构化、可解析）
 
 ---
-**索引最后更新**: 2026-05-20
+**索引最后更新**: 2026-07-19
