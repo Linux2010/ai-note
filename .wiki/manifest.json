@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-14T14:23:00.242684+00:00",
+  "root": "/Users/hope/ai-project/ai-wiki",
+  "page_count": 28,
+  "pages": [
+    {
+      "id": "concept-agent-long-term-memory",
+      "path": "wiki/concepts/agent-long-term-memory.md",
+      "type": "concept",
+      "title": "Agent 长期记忆分层架构",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/elite-longterm-memory-guide.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "entities/hermes-agent.md",
+        "summaries/openclaw-memory-search.md",
+        "summaries/openhorse-configuration.md"
+      ]
+    },
+    {
+      "id": "concept-langgraph-core-and-persistence",
+      "path": "wiki/concepts/langgraph-core-and-persistence.md",
+      "type": "concept",
+      "title": "LangGraph 核心模型与持久化",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/02-core-concepts.md",
+        "../../raw/sources/docs/langgraph-technical-report/03-persistence-and-checkpoints.md"
+      ],
+      "links": [
+        "concepts/agent-long-term-memory.md",
+        "concepts/langgraph-multi-agent.md",
+        "entities/langgraph.md",
+        "summaries/langgraph-interaction.md"
+      ]
+    },
+    {
+      "id": "concept-langgraph-multi-agent",
+      "path": "wiki/concepts/langgraph-multi-agent.md",
+      "type": "concept",
+      "title": "LangGraph 多 Agent 编排",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/06-multi-agent.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "entities/langgraph.md",
+        "summaries/langgraph-implementation.md",
+        "summaries/langgraph-interaction.md"
+      ]
+    },
+    {
+      "id": "concept-openclaw-multi-agent-runtime",
+      "path": "wiki/concepts/openclaw-multi-agent-runtime.md",
+      "type": "concept",
+      "title": "OpenClaw 多代理运行时",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/architecture/multi-agent.md",
+        "../../raw/sources/openclaw/best-practices/sessions-spawn-async-monitoring.md"
+      ],
+      "links": [
+        "../../openclaw/architecture/multi-agent.md",
+        "../../openclaw/best-practices/sessions-spawn-async-monitoring.md",
+        "../summaries/openclaw-architecture-overview.md",
+        "../summaries/openclaw-memory-architecture.md",
+        "../summaries/openclaw-memory-search-operations.md"
+      ]
+    },
+    {
+      "id": "decision-openclaw-memory-plugin-selection",
+      "path": "wiki/decisions/openclaw-memory-plugin-selection.md",
+      "type": "decision",
+      "title": "OpenClaw 记忆插件选型",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/memory-lancedb-comparison.md",
+        "../../raw/sources/openclaw/memory-plugins-complete-guide.md",
+        "../../raw/sources/openclaw/memory-search-best-practices.md",
+        "../../raw/sources/openclaw/best-practices/openclaw-memory-plugins-guide.md"
+      ],
+      "links": [
+        "../../openclaw/best-practices/openclaw-memory-plugins-guide.md",
+        "../../openclaw/memory-lancedb-comparison.md",
+        "../../openclaw/memory-plugins-complete-guide.md",
+        "../../openclaw/memory-search-best-practices.md",
+        "../concepts/openclaw-multi-agent-runtime.md",
+        "../summaries/openclaw-memory-architecture.md",
+        "../summaries/openclaw-memory-search-operations.md"
+      ]
+    },
+    {
+      "id": "entity-hermes-agent",
+      "path": "wiki/entities/hermes-agent.md",
+      "type": "entity",
+      "title": "Hermes Agent",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/hermes-agent/overview.md"
+      ],
+      "links": [
+        "concepts/agent-long-term-memory.md",
+        "concepts/langgraph-multi-agent.md",
+        "summaries/agent-cli-language-selection.md",
+        "summaries/claude-code-telegram-remote.md"
+      ]
+    },
+    {
+      "id": "entity-langgraph",
+      "path": "wiki/entities/langgraph.md",
+      "type": "entity",
+      "title": "LangGraph",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/README.md",
+        "../../raw/sources/docs/langgraph-technical-report/01-overview-and-architecture.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "concepts/langgraph-multi-agent.md",
+        "summaries/langgraph-implementation.md",
+        "summaries/langgraph-interaction.md",
+        "summaries/langgraph-positioning.md"
+      ]
+    },
+    {
+      "id": "summary-agent-cli-language-selection",
+      "path": "wiki/summaries/agent-cli-language-selection.md",
+      "type": "summary",
+      "title": "Agent-CLI 开发语言选型",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/agent-cli-language-comparison.md",
+        "../../raw/sources/docs/python-agent-cli-research.md",
+        "../../raw/sources/research/java-agent-cli-feasibility.md"
+      ],
+      "links": [
+        "concepts/langgraph-multi-agent.md",
+        "entities/hermes-agent.md",
+        "summaries/openhorse-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-claude-code-telegram-remote",
+      "path": "wiki/summaries/claude-code-telegram-remote.md",
+      "type": "summary",
+      "title": "Claude Code Telegram 远程通信",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/claude-code-telegram-remote-communication.md"
+      ],
+      "links": [
+        "concepts/tool-call-protocol.md",
+        "entities/hermes-agent.md",
+        "summaries/openhorse-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-fork-maintenance",
+      "path": "wiki/summaries/fork-maintenance.md",
+      "type": "summary",
+      "title": "Fork 仓库维护原则",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/fork-maintenance-best-practices.md"
+      ],
+      "links": [
+        "decisions/markdown-first.md",
+        "summaries/agent-cli-language-selection.md"
+      ]
+    },
+    {
+      "id": "summary-langgraph-implementation",
+      "path": "wiki/summaries/langgraph-implementation.md",
+      "type": "summary",
+      "title": "LangGraph 实施方案",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/07-technical-plan-and-examples.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "concepts/langgraph-multi-agent.md",
+        "entities/langgraph.md",
+        "summaries/langgraph-interaction.md"
+      ]
+    },
+    {
+      "id": "summary-langgraph-interaction",
+      "path": "wiki/summaries/langgraph-interaction.md",
+      "type": "summary",
+      "title": "LangGraph 流式交互与人类在环",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/04-streaming.md",
+        "../../raw/sources/docs/langgraph-technical-report/05-human-in-the-loop.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "concepts/langgraph-multi-agent.md",
+        "entities/langgraph.md",
+        "summaries/langgraph-implementation.md"
+      ]
+    },
+    {
+      "id": "summary-langgraph-positioning",
+      "path": "wiki/summaries/langgraph-positioning.md",
+      "type": "summary",
+      "title": "LangGraph 定位与选型",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/docs/langgraph-technical-report/08-summary-and-comparison.md"
+      ],
+      "links": [
+        "concepts/langgraph-core-and-persistence.md",
+        "concepts/langgraph-multi-agent.md",
+        "entities/langgraph.md",
+        "summaries/agent-cli-language-selection.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-architecture-overview",
+      "path": "wiki/summaries/openclaw-architecture-overview.md",
+      "type": "summary",
+      "title": "OpenClaw 架构总览",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/architecture/core-architecture.md",
+        "../../raw/sources/openclaw/architecture/openclaw-architecture-and-clone-guide.md"
+      ],
+      "links": [
+        "../../openclaw/architecture/core-architecture.md",
+        "../../openclaw/architecture/openclaw-architecture-and-clone-guide.md",
+        "../concepts/openclaw-multi-agent-runtime.md",
+        "openclaw-memory-architecture.md",
+        "openclaw-memory-search-operations.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-bailian-model-configuration",
+      "path": "wiki/summaries/openclaw-bailian-model-configuration.md",
+      "type": "source-summary",
+      "title": "OpenClaw 百炼模型配置",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/bailian-coding-plan-complete-guide.md",
+        "../../raw/sources/openclaw/best-practices/bailian-model-configuration.md",
+        "../../raw/sources/openclaw/best-practices/bailian-models-best-practices.md",
+        "../../raw/sources/openclaw/claude-code-bailian-coding-plan.md"
+      ],
+      "links": [
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-runtime-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-discord-operations",
+      "path": "wiki/summaries/openclaw-discord-operations.md",
+      "type": "source-summary",
+      "title": "OpenClaw Discord Bot 配置与运维",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/discord-bot-configuration-best-practices.md",
+        "../../raw/sources/openclaw/best-practices/discord-multi-bot-management.md",
+        "../../raw/sources/openclaw/discord-bot-best-practices.md"
+      ],
+      "links": [
+        "summaries/openclaw-group-chat-and-telegram-routing.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-runtime-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-github-workflow",
+      "path": "wiki/summaries/openclaw-github-workflow.md",
+      "type": "source-summary",
+      "title": "OpenClaw GitHub 项目工作流",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/github-workflow-best-practices.md"
+      ],
+      "links": [
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-runtime-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-group-chat-and-telegram-routing",
+      "path": "wiki/summaries/openclaw-group-chat-and-telegram-routing.md",
+      "type": "source-summary",
+      "title": "OpenClaw 群聊行为与 Telegram 多 Agent 路由",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/group-chat-configuration-best-practices.md",
+        "../../raw/sources/openclaw/best-practices/multi-agent-telegram.md",
+        "../../raw/sources/openclaw/solutions/telegram-multi-agent-routing.md"
+      ],
+      "links": [
+        "summaries/openclaw-discord-operations.md",
+        "summaries/openclaw-runtime-configuration.md",
+        "summaries/openclaw-telegram-connectivity-troubleshooting.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-installation-and-runtime-management",
+      "path": "wiki/summaries/openclaw-installation-and-runtime-management.md",
+      "type": "source-summary",
+      "title": "OpenClaw 安装与运行时管理",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/docker-quickstart.md",
+        "../../raw/sources/openclaw/best-practices/nvm-nodejs-openclaw-management.md"
+      ],
+      "links": [
+        "summaries/openclaw-bailian-model-configuration.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-playwright-automation.md",
+        "summaries/openclaw-runtime-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-memory-architecture",
+      "path": "wiki/summaries/openclaw-memory-architecture.md",
+      "type": "summary",
+      "title": "OpenClaw 记忆架构",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/AI 代理精英记忆架构最佳实践.md",
+        "../../raw/sources/openclaw/architecture/memory-search-implementation.md"
+      ],
+      "links": [
+        "../../openclaw/AI%20代理精英记忆架构最佳实践.md",
+        "../../openclaw/architecture/memory-search-implementation.md",
+        "../concepts/openclaw-multi-agent-runtime.md",
+        "../decisions/openclaw-memory-plugin-selection.md",
+        "openclaw-memory-search-operations.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-memory-search-operations",
+      "path": "wiki/summaries/openclaw-memory-search-operations.md",
+      "type": "summary",
+      "title": "OpenClaw Memory Search 运维",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/memory-search-quickstart.md",
+        "../../raw/sources/openclaw/openclaw-memory-index-repair.md"
+      ],
+      "links": [
+        "../../openclaw/memory-search-quickstart.md",
+        "../../openclaw/openclaw-memory-index-repair.md",
+        "../decisions/openclaw-memory-plugin-selection.md",
+        "openclaw-architecture-overview.md",
+        "openclaw-memory-architecture.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-memory-search",
+      "path": "wiki/summaries/openclaw-memory-search.md",
+      "type": "summary",
+      "title": "OpenClaw Memory Search",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw-memory-search-guide.md"
+      ],
+      "links": [
+        "concepts/agent-long-term-memory.md",
+        "entities/hermes-agent.md",
+        "summaries/openhorse-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-network-and-remote-access",
+      "path": "wiki/summaries/openclaw-network-and-remote-access.md",
+      "type": "source-summary",
+      "title": "OpenClaw 网络、代理与远程访问",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/solutions/control-ui-http-remote-access.md",
+        "../../raw/sources/openclaw/solutions/macos-tcp-connection-storm.md",
+        "../../raw/sources/openclaw/solutions/proxy-solutions.md"
+      ],
+      "links": [
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-runtime-configuration.md",
+        "summaries/openclaw-telegram-connectivity-troubleshooting.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-opentask-container-operations",
+      "path": "wiki/summaries/openclaw-opentask-container-operations.md",
+      "type": "source-summary",
+      "title": "OpenClaw 中的 OpenTask 容器运维",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/OpenTask-容器配置指南.md"
+      ],
+      "links": [
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-telegram-connectivity-troubleshooting.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-playwright-automation",
+      "path": "wiki/summaries/openclaw-playwright-automation.md",
+      "type": "source-summary",
+      "title": "OpenClaw Playwright 浏览器自动化",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/Playwright-浏览器自动化方案.md",
+        "../../raw/sources/openclaw/best-practices/playwright-best-practices.md"
+      ],
+      "links": [
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md",
+        "summaries/openclaw-runtime-configuration.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-runtime-configuration",
+      "path": "wiki/summaries/openclaw-runtime-configuration.md",
+      "type": "source-summary",
+      "title": "OpenClaw 运行时配置体系",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/best-practices/openclaw-configuration-best-practices.md",
+        "../../raw/sources/openclaw/environment-variables-guide.md",
+        "../../raw/sources/openclaw/sandbox-configuration-practice.md"
+      ],
+      "links": [
+        "summaries/openclaw-bailian-model-configuration.md",
+        "summaries/openclaw-github-workflow.md",
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md"
+      ]
+    },
+    {
+      "id": "summary-openclaw-telegram-connectivity-troubleshooting",
+      "path": "wiki/summaries/openclaw-telegram-connectivity-troubleshooting.md",
+      "type": "source-summary",
+      "title": "OpenClaw Telegram 连通性排障",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openclaw/solutions/cc-connect-telegram-unresponsive.md",
+        "../../raw/sources/openclaw/solutions/docker-telegram-proxy-connection-issue.md"
+      ],
+      "links": [
+        "summaries/openclaw-group-chat-and-telegram-routing.md",
+        "summaries/openclaw-installation-and-runtime-management.md",
+        "summaries/openclaw-network-and-remote-access.md"
+      ]
+    },
+    {
+      "id": "summary-openhorse-configuration",
+      "path": "wiki/summaries/openhorse-configuration.md",
+      "type": "summary",
+      "title": "OpenHorse 配置与最佳实践",
+      "status": "draft",
+      "updated": "2026-08-14",
+      "owner": "llm-wiki-expert",
+      "sources": [
+        "../../raw/sources/openhorse/best-practices/openhorse-configuration-best-practices.md"
+      ],
+      "links": [
+        "concepts/agent-long-term-memory.md",
+        "summaries/agent-cli-language-selection.md",
+        "summaries/claude-code-telegram-remote.md",
+        "summaries/openclaw-memory-search.md"
+      ]
+    }
+  ],
+  "issues": []
+}
